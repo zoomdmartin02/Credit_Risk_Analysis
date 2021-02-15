@@ -16,6 +16,14 @@ The purpose of this analysis is to employ different techniques to train and eval
 	![BRFC](/Resources/img5.png)
 - Easy Ensemble AdaBoost Classifier
 	![AdaBoost](/Resources/img6.png)
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Accuracy scores with a notable exception of the Easy Ensemble AdaBoost Classifier that showed a .99 accuracy, all hovered between .59 and .68.
+
+Precision was very low (.01 for high-risk applicants, but sensitivity was between .6 to .69 for most models).
+Precision for low risk applicants was very high (1.00) in most models.
+
+Recall for high-risk and low-risk applicants mirrored each other between .57 to .69.
+
+## Summary: 
+To the Grader:
+I will have to come back to this.  I truly am struggling to understand this material and am not clear that I performed the analysis correctly.  Look forward to any guidance you can provide.
